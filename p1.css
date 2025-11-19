@@ -1,0 +1,26 @@
+body {
+  background-color: rgba(216, 238, 197, 0.899);
+  text-align: center;
+}
+
+.c1 {
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid rgba(205, 213, 152, 0.734);
+  box-shadow: 2px 5px 5px 2px rgba(167, 162, 206, 0.453);
+  background: #89b1c295;
+  background: linear-gradient(172deg, rgb(141, 209, 236) 0%, rgba(215, 245, 228, 0.582) 78%);
+}
+
+.c2 {
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid rgba(229, 190, 190, 0.423);
+  box-shadow: 2px 5px 5px 2px rgba(158, 95, 95, 0.296);
+  background: #ae6b6b52;
+  background: linear-gradient(172deg, rgba(180, 71, 71, 0.721) 0%, rgba(250, 235, 190, 0.567) 78%);
+}

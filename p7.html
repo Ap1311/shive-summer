@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester Menu</title>
+
+    <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+
+<div class="container py-5">
+
+    <h2 class="text-center mb-4">Semester Menu</h2>
+
+    <!-- ===== Button Toolbar (Main Menu) ===== -->
+    <div class="btn-toolbar justify-content-center mb-4" role="toolbar">
+
+        <!-- Odd Semester Button -->
+        <div class="btn-group me-3" role="group">
+            <button class="btn btn-primary" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#oddSemesters">
+                Odd Semesters
+            </button>
+        </div>
+
+        <!-- Even Semester Button -->
+        <div class="btn-group" role="group">
+            <button class="btn btn-success" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#evenSemesters">
+                Even Semesters
+            </button>
+        </div>
+    </div>
+  <!-- ===== Odd Semester Submenu ===== -->
+    <div class="collapse" id="oddSemesters">
+        <div class="card card-body shadow-sm">
+  <h5 class="text-primary mb-3">Odd Semester Submenu</h5>
+  <!-- Button Group (Submenu) -->
+            <div class="btn-group d-flex flex-wrap" role="group">
+                <button class="btn btn-outline-primary m-1">Semester 1</button>
+                <button class="btn btn-outline-primary m-1">Semester 3</button>
+                <button class="btn btn-outline-primary m-1">Semester 5</button>
+                <button class="btn btn-outline-primary m-1">Semester 7</button>
+            </div>
+ </div>
+    </div>
+<!-- ===== Even Semester Submenu ===== -->
+  <div class="collapse mt-3" id="evenSemesters">
+        <div class="card card-body shadow-sm">
+           <h5 class="text-success mb-3">Even Semester Submenu</h5>
+          <!-- Button Group (Submenu) -->
+            <div class="btn-group d-flex flex-wrap" role="group">
+                <button class="btn btn-outline-success m-1">Semester 2</button>
+                <button class="btn btn-outline-success m-1">Semester 4</button>
+                <button class="btn btn-outline-success m-1">Semester 6</button>
+                <button class="btn btn-outline-success m-1">Semester 8</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
